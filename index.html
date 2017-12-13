@@ -15,46 +15,45 @@
   <!-- splash inicial de carga -->
   <div class="splash align-middle">
     <h1>Foodmap</h1>
-      <div class="col-md-3">
-            <div class="adjust">
-               <div class="loader2"></div>
-            </div>
-         </div>
+    <div class="col-md-3">
+      <div class="adjust">
+        <div class="loader2"></div>
       </div>
     </div>
+  </div>
     <!-- modal al pinchar imagenes -->
-    <div class="modal fade" id="squarespaceModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span></button>
-            <h3 class="modal-title" id="lineModalLabel"></h3>
+  <div class="modal fade" id="squarespaceModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span></button>
+          <h3 class="modal-title" id="lineModalLabel"></h3>
+        </div>
+        <div class="modal-body container">
+          <div class="row">
+            <div class="col-xs-8 col-xs-offset-2 col-sm-8 col-sm-offset-2 ">
+            <!-- content goes here -->
+              <div id="imgModal"></div>
+              <h5 id="subtitle"></h5>
+            </div>
           </div>
-          <div class="modal-body container">
-            <div class="row">
-              <div class="col-xs-8 col-xs-offset-2 col-sm-8 col-sm-offset-2 ">
-              <!-- content goes here -->
-                <div id="imgModal"></div>
-                <h5 id="subtitle"></h5>
-              </div>
+          <div class="row">
+            <div class="col-xs-6 col-sm-6">
+              <p id="adress"></p>
+            </div>
+            <div class="col-xs-6 col-sm-6">
+              <p id="price"></p>
             </div>
             <div class="row">
-              <div class="col-xs-6 col-sm-6">
-                <p id="adress"></p>
-              </div>
-              <div class="col-xs-6 col-sm-6">
-                <p id="price"></p>
-              </div>
-              <div class="row">
-                <div class="col-xs-12 col-sm-12">
-                  <button class="btn btn-default" type="submit" id="order">Pedir Ahora!</button>
-                </div>
+              <div class="col-xs-12 col-sm-12">
+                <button class="btn btn-default" type="submit" id="order">Pedir Ahora!</button>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
   <!-- contenido central de la página -->
   <header class="content" >
     <nav>
@@ -136,9 +135,6 @@
       </div>
     </section>
   </main>
-  
-
-
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script src="assets/js/app.js"></script>
