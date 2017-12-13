@@ -1,0 +1,37 @@
+*{
+	box-sizing: border-box;
+}
+
+.splash{
+  background-color: #2B2B2B;
+  color: #FFC107;
+  height: 100vh;
+  text-align: center;
+  padding-top: 50%;
+}
+
+body{
+  background-color: #2B2B2B;
+  height: 100vh;
+  color: #FFC107;
+  text-align: center;
+}
+ nav{
+  background-color: #2B2B2B;
+ }
+
+nav h1{
+  font-weight: lighter;
+  border-bottom: 2px groove #FFF;
+}
+
+#map{
+  height: 12em;
+  background-image: url(../img/restaurantsInicial.png);
+  background-position: 40% 65%;
+}
+
+h4{
+  margin-top: 1em;
+  font-weight: lighter;
+}
