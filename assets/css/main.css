@@ -45,8 +45,19 @@ h4{
   padding-right: 4em;
 }
 
+#dropdownMenu1 li{
+  padding-right: 4em;
+  padding-left: 4em;
+}
 
+#pictures{
+  padding-top: 3em;
+}
 
+.thumbnail img{
+  height:5em;
+  width: 100%;    
+}
 
 /*estilos de loader en splash*/
 .loader2 {
