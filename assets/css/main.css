@@ -59,10 +59,17 @@ h4{
   width: 100%;
 }
 
-.peruvian{
-  display: none;
+#imgModal{
+  background-image: url(../img/restaurantsInicial.png);
+  height: 10em;
+  width: 100%;
+  background-position: 40% 60%;
 }
 
+#order{
+  background-color: #FFC107;
+  color: #FFF;
+}
 
 /*estilos de loader en splash*/
 .loader2 {
