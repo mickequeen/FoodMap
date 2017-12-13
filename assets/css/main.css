@@ -56,8 +56,13 @@ h4{
 
 .thumbnail img{
   height:5em;
-  width: 100%;    
+  width: 100%;
 }
+
+.peruvian{
+  display: none;
+}
+
 
 /*estilos de loader en splash*/
 .loader2 {
